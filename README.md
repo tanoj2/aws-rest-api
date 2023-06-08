@@ -4,7 +4,7 @@ This repository contains the code for a REST API implemented using AWS API Gatew
 
 ## Description
 
-The REST API is built on AWS infrastructure and follows the serverless architecture pattern. The API Gateway acts as the entry point for the API, handling request routing, authorization, and rate limiting. The Lambda functions process the incoming API requests and interact with the RDS database using SQLAlchemy for performing CRUD operations.
+The REST API is built on AWS infrastructure. The API Gateway acts as the entry point for the API, handling request routing, authorization, and rate limiting. The Lambda functions process the incoming API requests and interact with the RDS database using SQLAlchemy for performing CRUD operations.
 
 ## Prerequisites
 
