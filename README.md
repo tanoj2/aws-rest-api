@@ -33,7 +33,8 @@ To deploy and test the REST API, follow these steps:
 - Navigate to the AWS Lambda service.
 - Create a new Lambda function from scratch.
 - Configure the function with the desired runtime and settings.
-- Copy the code from the repository's Lambda function files into the function's code editor.
+- create a lambda layer and upload the zip file given in Lambda_Layer folder.
+- Copy the code from the repository's Lambda function file into the function's code editor.
 - Update the code with the RDS database connection details.
 
 4. Create an API Gateway:
